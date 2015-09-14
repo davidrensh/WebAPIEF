@@ -18,6 +18,7 @@ namespace WebAPIEF
             // Call the addNewMessageToPage method to update clients.
             Clients.All.addNewMessageToPage(name + ":" + Context.ConnectionId.Substring(Context.ConnectionId.Length -3, 3) + ";", message);
         }
+
         ///
         /// register online user
         ///
