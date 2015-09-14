@@ -19,7 +19,7 @@ namespace WebAPIEF
             Clients.All.addNewMessageToPage(name + ":" + Context.ConnectionId.Substring(Context.ConnectionId.Length -3, 3) + ";", message);
         }
 
-        ///
+
         /// register online user
         ///
         ///
