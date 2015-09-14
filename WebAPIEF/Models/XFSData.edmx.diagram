@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="30fd691b9f6545a790314970a177f018" Name="Diagram1">
+        <EntityTypeShape EntityType="XFSModel.Activity" Width="1.5" PointX="3" PointY="49.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.ActivityCCGroup" Width="1.5" PointX="5.25" PointY="69.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.ActivityCCMapping" Width="1.5" PointX="8.25" PointY="66.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.ActivityLog" Width="1.5" PointX="5.25" PointY="50" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.ActivityType" Width="1.5" PointX="0.75" PointY="50.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.BLSTemplate" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.BOL" Width="1.5" PointX="5.25" PointY="58.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.BOLDetails" Width="1.5" PointX="15.75" PointY="67.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.BOLReason" Width="1.5" PointX="3" PointY="69.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.CostCode" Width="1.5" PointX="3.75" PointY="73.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.CostCodeLog" Width="1.5" PointX="6" PointY="92.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.DDAcorn" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.DDActivityProgress" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.DDDes" Width="1.5" PointX="0.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.DDIdList" Width="1.5" PointX="2.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.Description" Width="1.5" PointX="6" PointY="44.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.DescriptionLog" Width="1.5" PointX="8.25" PointY="45" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.DescriptionType" Width="1.5" PointX="3.75" PointY="45.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.Document" Width="1.5" PointX="3" PointY="89.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.DocumentAssignment" Width="1.5" PointX="5.25" PointY="81.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.Duration" Width="1.5" PointX="10.5" PointY="73.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.DurationType" Width="1.5" PointX="8.25" PointY="58.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.EstimateMethod" Width="1.5" PointX="13.5" PointY="75" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.FPRSource" Width="1.5" PointX="9" PointY="70.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.G" Width="1.5" PointX="11.25" PointY="52" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.GCCBudget" Width="1.5" PointX="16.5" PointY="55.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.Holiday" Width="1.5" PointX="7.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.ImportData" Width="1.5" PointX="20.75" PointY="56.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.ImportDataDescriptionDetail" Width="1.5" PointX="26" PointY="59.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.ImportLog" Width="1.5" PointX="3" PointY="64.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.ImportRollUp" Width="1.5" PointX="16.5" PointY="59.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.ImportType" Width="1.5" PointX="0.75" PointY="69.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.MatGCode" Width="1.5" PointX="7.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.MatGroupCode" Width="1.5" PointX="6" PointY="74.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.Milestone" Width="1.5" PointX="6" PointY="77.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.ProgressLog" Width="1.5" PointX="23.75" PointY="62.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.Project" Width="1.5" PointX="0.75" PointY="64.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.ProjectCC" Width="1.5" PointX="6" PointY="64.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.ProjectSCActivity" Width="1.5" PointX="5.25" PointY="53.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.ProjectSCActivityCC" Width="1.5" PointX="16.25" PointY="63.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.ProjectSCActivityCCLog" Width="1.5" PointX="18.5" PointY="63.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.ProjectSCActivityLink" Width="1.5" PointX="7.5" PointY="50.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.ProjectSCBLS" Width="1.5" PointX="5.25" PointY="87.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.ProjectSCDescription" Width="1.5" PointX="8.25" PointY="53.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.ProjectSCHistory" Width="1.5" PointX="9.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.ProjectSCMilestone" Width="1.5" PointX="8.25" PointY="63" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.ProjectScoreCard" Width="1.5" PointX="3" PointY="57.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.ProjectSCSGActivity" Width="1.5" PointX="23.75" PointY="58.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.ProjectType" Width="1.5" PointX="2.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.ProrateType" Width="1.5" PointX="3.75" PointY="42.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.QCArea" Width="1.5" PointX="3" PointY="79.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.QCSystem" Width="1.5" PointX="3" PointY="82.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.QCTag" Width="1.5" PointX="3" PointY="85.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.Report" Width="1.5" PointX="9.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.ReportSub" Width="1.5" PointX="7.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.SCActivityTemplate" Width="1.5" PointX="13.25" PointY="48.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.SCCCTemplate" Width="1.5" PointX="9.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.SCDescriptionTemplate" Width="1.5" PointX="10.25" PointY="48.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.SCMilestoneTemplate" Width="1.5" PointX="11.25" PointY="70" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.Scope" Width="1.5" PointX="13.5" PointY="55.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.ScopeCCBudget" Width="1.5" PointX="15.75" PointY="71.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.ScoreCard" Width="1.5" PointX="0.75" PointY="57.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.ScoreCardType" Width="1.5" PointX="1.5" PointY="54" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.SCROCTemplate" Width="1.5" PointX="11.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.SGDescription" Width="1.5" PointX="23.75" PointY="67.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.SGScheduleMapping" Width="1.5" PointX="18.75" PointY="71.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.UnitOfMeasure" Width="1.5" PointX="0.75" PointY="61" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.UserName" Width="1.5" PointX="0.75" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.UserProfile" Width="1.5" PointX="5.25" PointY="100" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.UserProfileDetail" Width="1.5" PointX="15.75" PointY="76.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.UserProfileScorecardViewSettings" Width="1.5" PointX="7.5" PointY="100.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.DD" Width="1.5" PointX="11.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.DDAcornPipeSize" Width="1.5" PointX="0.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.DDActivityPreviousActivity" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.DDBackLogReportView" Width="1.5" PointX="3" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.DDChangeCostCodeID" Width="1.5" PointX="2.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.DDChangeScheduleID" Width="1.5" PointX="7.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.DDRevByISO" Width="1.5" PointX="13.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.DDRevByISOControlNo" Width="1.5" PointX="13.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.DDRevBySGID" Width="1.5" PointX="13.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.DDScheduleIDByActivity" Width="1.5" PointX="13.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.DDSetZero" Width="1.5" PointX="4.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.DDSGActivityProgress" Width="1.5" PointX="15.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.DDSmartPlantMA" Width="1.5" PointX="0.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.DDZeroCostCode" Width="1.5" PointX="15.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.Duration_CompactDefaults" Width="1.5" PointX="15.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.DurationType_Default" Width="1.5" PointX="6.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="XFSModel.DurationVert" Width="1.5" PointX="8.75" PointY="15.75" IsExpanded="true" />
+        <AssociationConnector Association="XFSModel.FK_Activity_ActivityType" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_ActivityLog_Activity_ActivityID" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_ProgressLog_Activity_ActivityID" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_ProjectSCActivity_Activity_ActivityID" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_SCActivityTemplate_Activity_ActivityID" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_ActivityCCGroup_ImportLog_ImportLogID" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_ActivityCCMapping_ActivityCCGroup_ActivityCCGroupID" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_Scope_ActivityCCGroup_ActivityCCGroupID" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_ActivityCCMapping_ProjectCC_ProjectCCID" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_ActivityCCMapping_ProjectSCActivity_ProjectSCActivityID" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_SGScheduleMapping_ActivityCCMapping" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_BOL_BOLReason" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_BOL_ProjectScoreCard" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_BOLDetails_BOL" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_BOLDetails_Scope" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_CostCodeLog_CostCode_CostCodeID" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_ProjectCC_CostCode_CostCodeID" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_Description_DescriptionType" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_DescriptionLog_Description_DescriptionID" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_ProjectSCDescription_Description_DescriptionID" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_SCDescriptionTemplate_Description_DescriptionID" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_DocumentAssignment_Document_DocumentID" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_DocumentAssignment_QCArea_QCAreaID" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_DocumentAssignment_QCSystem_QCSystemID" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_DocumentAssignment_QCTag_QCTagID" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_Duration_DurationType" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_Duration_ProjectSCBLS" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_DurationType_MatGroupCode" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_DurationType_ProjectScoreCard" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_GCCBudget_EstimateMethod" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_ScopeCCBudget_EstimateMethod" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_G_FPRSource" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_Scope_FPRSource" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_G_ProjectScoreCard_ProjectScoreCardID" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_GCCBudget_G_GID" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_GCCBudget_ProjectCC_ProjectCCID" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_ImportData_ImportLog_ImportLogID" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_ImportData_ProjectCC_ProjectCCID" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_ImportData_ProjectSCActivity" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_ImportData_Scope_ScopeID" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_ImportDataDescriptionDetail_ImportData_ImportDataID" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_ImportDataDescriptionDetail_ProjectSCDescription_ProjectSCDescriptionID" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_ImportLog_ImportType_ImportTypeID" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_ImportLog_Project_ProjectID" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_ImportLog_ProjectScoreCard_ProjectScoreCardID" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_ImportRollUp_ImportLog_ImportLogID" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_ProgressLog_ImportLog_ImportLogID" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_SGDescription_ImportLog_ImportLogID" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_ImportRollUp_ProjectSCDescription_ProjectSCDescriptionID" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_ProjectSCMilestone_Milestone_MilestoneID" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_SCMilestoneTemplate_Milestone" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_ProgressLog_Scope" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_ProjectCC_Project_ProjectID" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_ProjectScoreCard_Project_ProjectID" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_QCArea_Project_ProjectID" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_QCSystem_Project_ProjectID" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_QCTag_Project_ProjectID" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_ProjectCC_ProrateTypeID" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_ProjectCC_UnitOfMeasure_UnitOfMeasureID" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_ProjectSCActivityCC_ProjectCC_ProjectCCID" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_ScopeCCBudget_ProjectCC_ProjectCCID" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_ProjectSCActivity_ProjectScoreCard_ProjectSCID" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_ProjectSCActivityCC_ProjectSCActivity_ProjectSCActivityID" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_ProjectSCActivityLink_ProjectSCActivity_ProjectSCActivityID" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_ProjectSCSGActivity_ProjectSCActivity" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_ProjectSCActivityCCLog_ProjectSCActivityCC_ProjectSCActivityCCID" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_ProjectSCBLS_ProjectScoreCard" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_ProjectSCDescription_ProjectScoreCard_ProjectScoreCardID" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_UserProfileDetail_ProjectSCDescription" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_ProjectSCMilestone_ProjectScoreCard_ProjectScoreCardID" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_ProjectScoreCard_ScoreCard_ScoreCardID" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_ProjectScoreCard_UnitOfMeasure" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_Scope_ProjectScoreCard_ProjectScoreCardID" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_UserProfile_ProjectScoreCard_ProjectScoreCardID" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_ProjectSCSGActivity_Scope" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_SCActivityTemplate_ScoreCard_ScoreCardID" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_SCDescriptionTemplate_ScoreCard_ScoreCardID" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_SCMilestoneTemplate_ScoreCard" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_ScopeCCBudget_Scope_ScopeID" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_SGDescription_Scope_ScopeID" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_SGScheduleMapping_Scope" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_UserProfileDetail_Scope" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_ScoreCard_ScoreCardType" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_DDActivityPreviousActivity_UserName_UserNameID" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_DDBackLogReportView_UserName_UserNameID" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_UserProfileDetail_UserProfile_UserProfileID" ManuallyRouted="false" />
+        <AssociationConnector Association="XFSModel.FK_UserProfileScorecardViewSettings_UserProfile_UserProfileID" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
